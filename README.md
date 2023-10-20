@@ -16,6 +16,7 @@ Data cleansing
 
 Modelling (Compared with ROC)
 - Baseline: Logistic Regression (0.5053)
+  
   Comparing:
  - Simple model:
  1. Random Forest (0.5278)
@@ -23,6 +24,7 @@ Modelling (Compared with ROC)
 - Ensembled model:
  1. Random Forest + Logistic Regression (0.5472)
  2. Random Forest + Naive Bayes (0.5472)
+The ROC of both Ensembled model are the highest among all models, while the ROC of Random Forest is higher than Naive Bayes. Thus would choose Random Forest + Logistic Regression as the most suitable model.
 
 Visualization
 - Distribution of the target variable
